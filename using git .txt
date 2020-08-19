@@ -1,0 +1,18 @@
+…or create a new repository on the command line
+echo "# creat-local-repository-and-PUSH-on-remote-repository" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+---------------------------------------------------------------------------------------------------------
+…or push an existing repository from the command line
+
+git remote add remoteName https://github.com/hieuphamGitHub/creat-local-repository-and-PUSH-on-remote-repository.git
+git push -u origin(remoteName) master(nameBranch)
+================================================================================================
+"Git remote add ..." và "git Push Origin master" là gì?
+================================================================================================
+$ git add .
+$ git commit -m "điền nội dung commit vào đây"
+$ git remote add <nameRemote><: remote_url:> Để check remote/source bạn có hoặc add thêm remote
+$ git push origin(remoteName)  master(nameBranch) Đây là một lệnh có nội dung "Đẩy các xác nhận trong nhánh 
+cục bộ có tên master vào điều khiển từ xa(remote) có tên Origin ".   
